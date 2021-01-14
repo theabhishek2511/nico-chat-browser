@@ -12,7 +12,7 @@ var engine = Random.engines.mt19937().autoSeed();
 // }
 
 function register() {
-  window.location = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=token&client_id=cx94gjhz4ful945h0a3b4hbntiscia&redirect_uri=http://nico.kuro.ml&scope=chat_login';
+  window.location = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=token&client_id=cx94gjhz4ful945h0a3b4hbntiscia&redirect_uri=https://theabhishek2511.github.io/nico-chat-browser/index&scope=chat_login';
 }
 
 function check() {
@@ -31,7 +31,7 @@ function generate() {
   var hash = parser.hash.replace('#access_token=','')
   hash = hash.replace('&scope=chat_login','')
 
-  window.location = 'http://nico.kuro.ml/chat?token='+hash;
+  window.location = 'https://theabhishek2511.github.io/nico-chat-browser/chat?token='+hash;
 }
 
 function load() {
