@@ -1,10 +1,7 @@
-@font-face {
-  font-family:"BEBASNEUE";
-  src:url('fonts/BebasNeue.otf');
-}
+
 
 #chat {
-  font-family: 'BEBASNEUE';
+  font-family: 'Roboto', sans-serif;
   color: #000;
   /*text-shadow: -0.3vmin 0 0 rgba(0, 0, 0, 0.8),
              0.3vmin 0 0 rgba(0, 0, 0, 0.8),
@@ -17,7 +14,7 @@
 }
 
 .smth {
-  font-family: 'BEBASNEUE';
+  font-family: 'Roboto', sans-serif;
 }
 
 #chat {
